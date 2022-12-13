@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>WE KNOW YOU</title>
+  </head>
+  <body>
+
+    <div class="streaming">
+
+      <div class="stream-header">
+        <h2>STREAMING SERVICE</h2>
+      </div>
+
+      <div class="convers">
+        <button class="button" onclick="openConvers()">
+          <img src="images/convers.webp">
+        </button>
+      </div>
+      <div class="dogs">
+        <button class="button" onclick="openDogs()">
+          <img src="images/dogs.jpg">
+        </button>
+      </div>
+      <div class="rear">
+        <button class="button" onclick="openRear()">
+          <img src="images/rear.jpg">
+        </button>
+      </div>
+
+      <!-- movie descriptions taken off google -->
+      <div id="conversWindow">
+        <div class="movieInfo">
+          <h3>The Conversation</h3>
+          <h4>1974</h4>
+          <h4>director Francis Ford Coppola</h4>
+          <h4>writer Francis Ford Coppola</h4>
+        </div>
+        <div class="movieInfo2">
+          <p>Surveillance expert Harry Caul (Gene Hackman) is hired by a
+            mysterious client's brusque aide (Harrison Ford) to tail a young
+            couple, Mark (Frederic Forrest) and Ann (Cindy Williams). Tracking
+            the pair through San Francisco's Union Square, Caul and his associate
+            Stan (John Cazale) manage to record a cryptic conversation between them.
+            Tormented by memories of a previous case that ended badly, Caul becomes
+            obsessed with the resulting tape, trying to determine if the couple are
+            in danger.</p>
+        </div>
+        <div class="playButton">
+        <a href="loading.html">
+          <button class="play">PLAY</button>
+        </a>
+        </div>
+        <button class="close" onclick="closeConvers()">CLOSE</button>
+      </div>
+
+      <div id="dogsWindow">
+        <div class="movieInfo">
+          <h3>Reservoir Dogs</h3>
+          <h4>1992</h4>
+          <h4>director Quentin Tarantino</h4>
+          <h4>writer Quentin Tarantino</h4>
+        </div>
+        <div class="movieInfo2">
+          <p>Six criminals with pseudonyms, and each strangers to one another,
+            are hired to carry out a robbery. The heist is ambushed by police
+            and the gang are forced to shoot their way out. At their warehouse
+            rendezvous, the survivors, realising that they were set up, try to
+            find the traitor in their midst.</p>
+        </div>
+        <div class="playButton">
+        <a href="loading2.html">
+          <button class="play">PLAY</button>
+        </a>
+        </div>
+        <button class="close" onclick="closeDogs()">CLOSE</button>
+      </div>
+
+      <div id="rearWindow">
+        <div class="movieInfo">
+          <h3>Rear Window</h3>
+          <h4>1954</h4>
+          <h4>director Alfred Hitchcock</h4>
+          <h4>writer John Michael Hayes</h4>
+        </div>
+        <div class="movieInfo2">
+          <p>The story of a recuperating news photographer who believes he has
+            witnessed a murder. Confined to a wheelchair after an accident, he
+            spends his time watching the occupants of neighbouring apartments
+            through a telephoto lens and binoculars and becomes convinced that
+            a murder has taken place.</p>
+        </div>
+        <div class="playButton">
+        <a href="loading3.html">
+          <button class="play">PLAY</button>
+        </a>
+        </div>
+        <button class="close" onclick="closeRear()">CLOSE</button>
+      </div>
+
+      <div class="info">
+        <button class="button" onclick="openWindow()">
+          <img src="images/info.png">
+        </button>
+      </div>
+
+      <div id="infoWindow">
+        <h3>Why are there only three titles?</h3>
+        <p>At STREAMING SERVICE, we believe in only giving you what you will like best.
+          Our advanced algorithm is designed to assist you in
+          finding the perfect title.</p>
+        <button class="close" onclick="closeWindow()">CLOSE</button>
+      </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
